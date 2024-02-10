@@ -10,6 +10,10 @@ import meditate from "./Meditate.svg";
 import Linkedin from "./Linkedin.svg";
 import Navbar from "./navbar";
 import Footer from "./Footer";
+import first from "./img/music_and_bible.png"
+import second from "./img/2nd_photo.jpg"
+import talk from "./img/talklink.png"
+import lets from "./img/lets_talk_mental.png";
 function Home()
 {
     return(
@@ -36,7 +40,7 @@ function Home()
                 
                 <div className="cardss">
                     <div className="card1">
-                        <Link to="/" className="card1link">
+                        <Link to="http://localhost:3000/music" className="card1link">
                             <div className="cardinner">
                                 <img src={music} className="music"/>
                                 <h1>Music</h1>
@@ -58,7 +62,7 @@ function Home()
                         </Link>
                     </div>
                     <div className="card3">
-                        <Link to="/" className="card1link">
+                        <Link to="http://localhost:3000/guide" className="card1link">
                             <div className="cardinner">
                                     <img src={yoga} className="yoga"/>
                                     <h1>Yoga</h1>
@@ -115,16 +119,16 @@ function Home()
                 </marquee> */}
                 <div className="slide">
                     <div className="slides">
-                        <img src="https://s3-alpha-sig.figma.com/img/d5b2/6e3d/178f1e51359592e84d8baf36ea212d74?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aMa6z1eZsY6BeHTU2WaMt8F~FjEekEP7n3fiiH3SmtqbhB4p7vEx69MUpcOgO9uo4Q7hAMLRCx7~Xw~bC6OS73KttwZKuHEqZ6~BhO88ohj62EcDVqEsbg3A-VDYwirXdJ5X3ozxJzfmysxxnBdGInjwjkCg6Obpi24dmd56vrnpj8xZ40EJ6J3EreYv-5-zcLFaLj1EaXSU~IirnVGBt-o8MugSdOvTiSBKoEUk421F9uMQa9ftmhvdbFXgc0jSh7uGBViYOWyxBFJBWT9vZ4IIOasWmslT1hN~lrv1ixepb7CAn9nIsnzKJCdQ29NTVDJGtmtTD5DUx2cGJrGlhg__" />
-                        <img src="https://s3-alpha-sig.figma.com/img/6061/45f3/3c447bf947b371b496d6d1c35d49ddf0?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fw-GAsL~8vhWdlT9LgmU~1Xy1WhZzO7~zLoCpjJashZneczRAuPWZ4Yq93hqzU22fRy-ql3cb4oUEhE2MaCIdeI82eIWgbtg3InL49R2dBxfkckzNeDSnHF0iat6-DojTtLoHZsWZT8p5DGOIh~K-W7ii0eRKlY9FeDRvp5BHjXgq0Fpk6ObSYoZCP9TrN6Dg3Libzc2FEa1RttJhDx32GYXaNAMz9C-DvZCsYoNOznuYN3K-tAYhKcnWdu9Ppyz-3zL4w6ug-aQ7fHwwJCbgZVpq3YX4CE0UlAm6Ubc-fv-~-Maam27~syq~m8wnenKLAYscF2T44pCi639w0Pb7g__" />
-                        <img src="https://s3-alpha-sig.figma.com/img/03b0/428f/22989cf3d28a9512743f9cbe2715e884?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j3vJec5gdH8HagANwdB~wKcNdt72ev1mxgn1gc~NxwuViFtLkM0RIEa2ogabjB-K3YpEfP1FC-bOoIweXjqD9utF5FESmlhkW~3Sc4wQX84cI2nOdZOMYmaGWb9NSd8VF58fPhBprY0n0Yw2cyQNm39yA7v8r99QxRwt6qjfE1s8L4hzqnlHUbL-qU3X-5AqnCh49xBu~r-OOpr7nDfl6XtvQYlOV9vo4tTsRlUPCsGIrzftTjlHwq~wRQUSdSdfwcyYyZee9UxmEXH-o3ajBlEtpKC5LcMYIpqZlyCduJXqm8jKtgbzWrPnWy6~77AO5yZQf996XxT9GIA6tAretQ__" />
-                        <img src="https://s3-alpha-sig.figma.com/img/f1c1/9b61/60b43f2423264a003c7ecb44ee0f8455?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kwfrG-ZjPw9KLvcBANikJr12wDGSgvh-DGGrDTC2XGEqvFAIiq4Y2epvVKzrUsnXS650U2E2bsEl1I0ZLX-V3Iq6SBmSM2IDO0biY5uPM4TnM9KlW-lKWWJPaD7AEERrLXliLfQGaYNm2q-2HOklZfxZu5FjBXLPgJK~C0lU6PgwUg6K~Dan7FlQVNEGRI10WehgHdkHnL2kbSjBqATC5l0UhSLdSFss87dyevQmqR3UaI-pCrjwYhbgmk44e52DT7nhcrMn97QETshK4GKmSkHeNEqPmY69GBeakgcko3~-J0-4feMmC6VDkd9MiU9oJHHXXAwa5XPC-A6Ql6dK8Q__" />
+                        <img src={first} />
+                        <img src={second} />
+                        <img src={talk} />
+                        <img src={lets} />
                     </div>
                     <div className="slides">
-                        <img src="https://s3-alpha-sig.figma.com/img/d5b2/6e3d/178f1e51359592e84d8baf36ea212d74?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aMa6z1eZsY6BeHTU2WaMt8F~FjEekEP7n3fiiH3SmtqbhB4p7vEx69MUpcOgO9uo4Q7hAMLRCx7~Xw~bC6OS73KttwZKuHEqZ6~BhO88ohj62EcDVqEsbg3A-VDYwirXdJ5X3ozxJzfmysxxnBdGInjwjkCg6Obpi24dmd56vrnpj8xZ40EJ6J3EreYv-5-zcLFaLj1EaXSU~IirnVGBt-o8MugSdOvTiSBKoEUk421F9uMQa9ftmhvdbFXgc0jSh7uGBViYOWyxBFJBWT9vZ4IIOasWmslT1hN~lrv1ixepb7CAn9nIsnzKJCdQ29NTVDJGtmtTD5DUx2cGJrGlhg__" />
-                        <img src="https://s3-alpha-sig.figma.com/img/6061/45f3/3c447bf947b371b496d6d1c35d49ddf0?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fw-GAsL~8vhWdlT9LgmU~1Xy1WhZzO7~zLoCpjJashZneczRAuPWZ4Yq93hqzU22fRy-ql3cb4oUEhE2MaCIdeI82eIWgbtg3InL49R2dBxfkckzNeDSnHF0iat6-DojTtLoHZsWZT8p5DGOIh~K-W7ii0eRKlY9FeDRvp5BHjXgq0Fpk6ObSYoZCP9TrN6Dg3Libzc2FEa1RttJhDx32GYXaNAMz9C-DvZCsYoNOznuYN3K-tAYhKcnWdu9Ppyz-3zL4w6ug-aQ7fHwwJCbgZVpq3YX4CE0UlAm6Ubc-fv-~-Maam27~syq~m8wnenKLAYscF2T44pCi639w0Pb7g__" />
-                        <img src="https://s3-alpha-sig.figma.com/img/03b0/428f/22989cf3d28a9512743f9cbe2715e884?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j3vJec5gdH8HagANwdB~wKcNdt72ev1mxgn1gc~NxwuViFtLkM0RIEa2ogabjB-K3YpEfP1FC-bOoIweXjqD9utF5FESmlhkW~3Sc4wQX84cI2nOdZOMYmaGWb9NSd8VF58fPhBprY0n0Yw2cyQNm39yA7v8r99QxRwt6qjfE1s8L4hzqnlHUbL-qU3X-5AqnCh49xBu~r-OOpr7nDfl6XtvQYlOV9vo4tTsRlUPCsGIrzftTjlHwq~wRQUSdSdfwcyYyZee9UxmEXH-o3ajBlEtpKC5LcMYIpqZlyCduJXqm8jKtgbzWrPnWy6~77AO5yZQf996XxT9GIA6tAretQ__" />
-                        <img src="https://s3-alpha-sig.figma.com/img/f1c1/9b61/60b43f2423264a003c7ecb44ee0f8455?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kwfrG-ZjPw9KLvcBANikJr12wDGSgvh-DGGrDTC2XGEqvFAIiq4Y2epvVKzrUsnXS650U2E2bsEl1I0ZLX-V3Iq6SBmSM2IDO0biY5uPM4TnM9KlW-lKWWJPaD7AEERrLXliLfQGaYNm2q-2HOklZfxZu5FjBXLPgJK~C0lU6PgwUg6K~Dan7FlQVNEGRI10WehgHdkHnL2kbSjBqATC5l0UhSLdSFss87dyevQmqR3UaI-pCrjwYhbgmk44e52DT7nhcrMn97QETshK4GKmSkHeNEqPmY69GBeakgcko3~-J0-4feMmC6VDkd9MiU9oJHHXXAwa5XPC-A6Ql6dK8Q__" />
+                        <img src={first} />
+                        <img src={second} />
+                        <img src={talk} />
+                        <img src={lets} />
                     </div>
                 </div>
                 <Footer />
